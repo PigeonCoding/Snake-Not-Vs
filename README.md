@@ -4,10 +4,15 @@
 ## how to build
 ### Windows
 ```
+mkdir build
 make windows
+.\build\windows\build.exe
 ```
 
 ### linux/macOS
 ```
+mkdir build
+mkdir linux
 make linux
+./build/linux/build.out
 ```
